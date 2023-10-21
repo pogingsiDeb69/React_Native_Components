@@ -21,6 +21,7 @@ import Component16 from './dropdown';
 import Component17 from './alert';
 import Component18 from './checkbox';
 import Component19 from './divider';
+import { Component20 } from './textinput';
 
 
 
@@ -146,6 +147,11 @@ import Component19 from './divider';
         <Stack.Screen
           name="Divider"
           component={ Component19}
+          options={{ headerStyleInterpolator: forFade }}
+        />
+        <Stack.Screen
+          name="Form"
+          component={ Component20}
           options={{ headerStyleInterpolator: forFade }}
         />
 

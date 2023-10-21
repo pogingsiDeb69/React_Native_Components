@@ -3,7 +3,7 @@ import { SafeAreaView, View ,Text,Image} from 'react-native';
 import { Button, Menu, Divider, Provider, Card } from 'react-native-paper';
 import { styling } from '../styles/styles';
 
-const Component14 = (navigation) => {
+const Component14 =  ({navigation}) => {
   const [visible, setVisible] = React.useState(false);
 
   const openMenu = () => setVisible(true);

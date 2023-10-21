@@ -4,7 +4,7 @@ import { SafeAreaView, View,Text, Image,Button } from 'react-native';
 import { Card, HelperText, TextInput } from 'react-native-paper';
 import { styling } from '../styles/styles';
 
-const Component15 = (navigation) => {
+const Component15 = ({navigation}) => {
     const [email, setEmail] = useState('');
     const [isValid, setIsValid] = useState(true);
   

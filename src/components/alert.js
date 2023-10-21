@@ -3,7 +3,7 @@ import { View, Button, StyleSheet, Alert,Image,Text, SafeAreaView } from 'react-
 import { styling } from '../styles/styles';
 import { Card } from 'react-native-paper';
 
-const Component17 = (navigation) => {
+const Component17 = ({navigation})  => {
   const showAlert = () => {
     Alert.alert(
       'Alert Title',

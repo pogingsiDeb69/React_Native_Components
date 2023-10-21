@@ -52,7 +52,7 @@ const DATA = [
     {id: '000-669',title: 'Jesrel Pilipino',},
     {id: '000-888',title: 'Earl Mike Sarabia',},
     {id: '000-445',title: 'Sheilo Saraga',},
-    {id: '000-657',title: 'John Tabanyag',},
+    {id: '000-651',title: 'John Tabanyag',},
     {id: '000-111', title: 'Keneth Tadlas',},
     {id: '000-833',title: 'Adrian Jane Tahil', },
     {id: '000-555',title: 'Ma Luisa Tinaja',},
@@ -65,7 +65,7 @@ const Item = ({ title }) => (
     </View>
 );
 
-export const Component6 = ({navigation}) => {
+export const Component6 =  ({ navigation })  => {
     return (
         <SafeAreaView style={styling.main}>
             <View style={{}}>
@@ -77,10 +77,7 @@ export const Component6 = ({navigation}) => {
                     mode="contained"
                     buttonColor='skyblue'
                     style={{ margin: 5, width: 100, alignSelf: 'center' }}
-                    onPress={() => navigation.navigate('SearchBar')}
-                >
-                    Next
-                </Button>
+                    onPress={() => navigation.navigate('SearchBar')}>Next</Button>
             </View>
             <View style={styles.container}>
                 <Text style={styles.text}>Basic FlatList Example</Text>

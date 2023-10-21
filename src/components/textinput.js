@@ -5,7 +5,7 @@ import {SafeAreaView, Text, Image,View, StyleSheet} from 'react-native';
 import { Button, Card, TextInput} from 'react-native-paper';
 import { styling } from '../styles/styles';
 
-export const Component20 = (navigation) => {
+export const Component20 = ({navigation}) => {
 
 	return(
 		<SafeAreaView style={styling.main}>

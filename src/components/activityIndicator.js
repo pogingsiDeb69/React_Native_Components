@@ -3,7 +3,7 @@ import { ActivityIndicator, Image, SafeAreaView, StyleSheet, Text, View } from '
 import { Button, Card } from 'react-native-paper';
 import { styling } from '../styles/styles';
 
-const Component13 = (navigation) => (
+const Component13 = ({navigation}) => (
     <SafeAreaView style={styling.main}>
         <View style={{ marginTop: 50, marginBottom: 0 }}>
             <Image source={require('../components/physics.png')} style={styling.logo} />

@@ -38,7 +38,7 @@ const Component12 = ({navigation}) => {
       mode="contained"
       buttonColor='skyblue'
       style={{  width: 100, alignSelf: 'center' }}
-      onPress={() => navigation.navigate('Scroll View')}
+      onPress={() => navigation.navigate('Activity Indicator')}
     >
       Next
     </Button>

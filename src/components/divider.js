@@ -3,7 +3,7 @@ import { View, Button, StyleSheet, Image, SafeAreaView } from 'react-native';
 import { Divider, Text, Card } from 'react-native-paper';
 import { styling } from '../styles/styles';
 
-const Component19 = () => {
+const Component19 = ({navigation}) => {
   return (
     <View style={styling.main}>
       <View style={{ marginTop: 50, marginBottom: 0 }}>
@@ -30,7 +30,7 @@ const Component19 = () => {
             mode="contained"
             buttonColor="skyblue"
             style={{ width: 100, alignSelf: 'center' }}
-            onPress={() => navigation.navigate('Menu')}
+            onPress={() => navigation.navigate('Form')}
           >
             Next
           </Button>

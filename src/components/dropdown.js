@@ -3,7 +3,7 @@ import { View, Text, Picker, StyleSheet, SafeAreaView,Image,Button } from 'react
 import { Card } from 'react-native-paper';
 import { styling } from '../styles/styles';
 
-const Component16 = (navigation) => {
+const Component16 = ({navigation}) => {
   const [selectedValue, setSelectedValue] = useState('option1');
 
   return (

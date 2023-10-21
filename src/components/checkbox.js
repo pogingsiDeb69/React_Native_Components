@@ -3,7 +3,7 @@ import { View, Button, StyleSheet,Image, SafeAreaView } from 'react-native';
 import { Checkbox, Text, Provider, Card } from 'react-native-paper';
 import { styling } from '../styles/styles';
 
-const Component18 = (navigation) => {
+const Component18 = ({navigation}) => {
   const [checked, setChecked] = useState(false);
 
   const handleToggleCheckbox = () => {
